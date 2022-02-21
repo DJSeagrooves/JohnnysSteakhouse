@@ -5,11 +5,12 @@ import AboutUs from './AboutUsComponent';
 import ContactUs from './ContactUsComponent';
 import Menu from './MenuComponent';
 import Footer from './FooterComponent';
+import background from './background.jpg'
 
 function App() {
   
   return (
-    <div className='App'>
+    <div className='App' style={{ backgroundImage: `url(${background})`}}>
       <Header title="Johnny's Steakhouse" />
       <Home />
       <AboutUs />
