@@ -1,12 +1,11 @@
 import React from 'react';
-import { Collapse, Navbar, NavbarToggler, NavItem, NavLink, Nav } from 'reactstrap';
-import react from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 
 
 const Header = ({ title }) => {
 
     return (
-        <react.Fragment>
+        <React.Fragment>
             <header className='siteHeader'>
                 <h1>
                     {title}
@@ -14,46 +13,40 @@ const Header = ({ title }) => {
             </header>
             <Navbar
                 expand='md'
-                className='navbar navbar-dark bg-dark sticky-top'
+                className='navbar navbar-dark bg-dark'
+                sticky='top'
             >
-                <NavbarToggler
+                <Navbar.Toggle
+                    aria-controls='basic-navbar-nav'
                     className="me-2"
                     onClick={function noRefCheck(){}}
                 />
-                <Collapse navbar>
+                <Navbar.Collapse>
                     <Nav>
-                        <NavItem>
-                            <NavLink href='/home/'>
-                                <p className='link-light'>
-                                    Home
-                                </p>
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href='/menu/'>
-                                <p className='link-light'>
-                                    Menu
-                                </p>
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href='/aboutus/'>
-                                <p className='link-light'>
-                                    About Us
-                                </p>
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href='/contactus/'>
-                                <p className='link-light'>
-                                    Contact Us
-                                </p>
-                            </NavLink>
-                        </NavItem>
+                        <Nav.Link href='#home'>
+                            <p className='link-light'>
+                                Home
+                            </p>
+                        </Nav.Link>
+                        <Nav.Link href='#menu'>
+                            <p className='link-light'>
+                                Menu
+                            </p>
+                        </Nav.Link>
+                        <Nav.Link href='#aboutus'>
+                            <p className='link-light'>
+                                About Us
+                            </p>
+                        </Nav.Link>
+                        <Nav.Link href='#contactus'>
+                            <p className='link-light'>
+                                Contact Us
+                            </p>
+                        </Nav.Link>
                     </Nav>
-                </Collapse>
+                </Navbar.Collapse>
             </Navbar>
-        </react.Fragment>
+        </React.Fragment>
     )
 }
 
