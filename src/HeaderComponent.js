@@ -23,22 +23,22 @@ const Header = ({ title }) => {
                 />
                 <Navbar.Collapse>
                     <Nav>
-                        <Nav.Link href='#home'>
+                        <Nav.Link href='/home'>
                             <p className='link-light'>
                                 Home
                             </p>
                         </Nav.Link>
-                        <Nav.Link href='#menu'>
+                        <Nav.Link href='/menu'>
                             <p className='link-light'>
                                 Menu
                             </p>
                         </Nav.Link>
-                        <Nav.Link href='#aboutus'>
+                        <Nav.Link href='/aboutus'>
                             <p className='link-light'>
                                 About Us
                             </p>
                         </Nav.Link>
-                        <Nav.Link href='#contactus'>
+                        <Nav.Link href='/contactus'>
                             <p className='link-light'>
                                 Contact Us
                             </p>

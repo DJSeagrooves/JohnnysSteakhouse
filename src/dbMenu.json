@@ -1,0 +1,17 @@
+{
+	"appetizers": [{}],
+	"salad": [
+		{
+			"id": 0,
+			"name": "Greek Salad",
+			"price": "$7.25",
+			"description": "Hand-tossed with light dressing, a perfect choice for the healthy minded folks"
+		},
+		{
+			"id": 1,
+			"name": "Grilled Chicken Salad",
+			"price": "$7.25",
+			"description": "Hand-tossed with light dressing, a perfect choice for the healthy minded folks"
+		}
+	]
+}

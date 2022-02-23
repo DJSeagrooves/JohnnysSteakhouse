@@ -11,10 +11,10 @@ const Footer = () => {
               Links
             </h5>
             <ul className='list-unstyled'>
-              <li href='#home'>Home</li>
-              <li href='#menu'>Menu</li>
-              <li href='#aboutus'>About Us</li>
-              <li href='#contactus'>Contact Us</li>
+              <a href='/home' className='link-light'><li>Home</li></a>
+              <a href='/menuy' className='link-light'><li>Menu</li></a>
+              <a href='/aboutus' className='link-light'><li>About Us</li></a>
+              <a href='/contactus' className='link-light'><li>Contact Us</li></a>
             </ul>
           </Col>
           <Col md='auto'>
@@ -27,8 +27,8 @@ const Footer = () => {
             <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube" /></a>
           </Col>
           <Col className='contactCol' md='auto'>
-            <a role="button" className="btn btn-link" href="tel:+10123456789"><i className="fa fa-phone" /><br/> 1-012-345-6789</a><br />
-            <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /><br /> Email Johnny</a>
+            <a role="button" className="btn btn-link link-light" href="tel:+10123456789"><i className="fa fa-phone" /><br/> 1-012-345-6789</a><br />
+            <a role="button" className="btn btn-link link-light" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /><br /> Email Johnny</a>
           </Col>
         </Row>
       </Container>
