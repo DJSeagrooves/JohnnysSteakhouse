@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 const Footer = () => {
   return (
     <footer>
-      <Container>
+      <Container className='m-2'>
         <Row>
           <Col md='auto'>
             <h5>

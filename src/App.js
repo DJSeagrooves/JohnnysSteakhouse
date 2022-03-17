@@ -1,16 +1,15 @@
 import React from 'react';
-import Header from './HeaderComponent';
-import Home from './HomeComponent';
-import AboutUs from './AboutUsComponent';
-import ContactUs from './ContactUsComponent';
-import Menu from './MenuComponent';
-import Footer from './FooterComponent';
-import background from './background.jpg'
+import Header from './components/HeaderComponent';
+import Home from './components/HomeComponent';
+import AboutUs from './components/AboutUsComponent';
+import ContactUs from './components/ContactUsComponent';
+import Menu from './components/MenuComponent';
+import Footer from './components/FooterComponent';
 
 function App() {
   
   return (
-    <div className='App' style={{ backgroundImage: `url(${background})`}}>
+    <div className='App'>
       <Header title="Johnny's Steakhouse" />
       <Home />
       <AboutUs />

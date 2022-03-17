@@ -1,0 +1,170 @@
+{
+	"appetizer": [
+		{
+			"id": 0,
+			"name": "Bread",
+			"price": "$0.00",
+			"description": "The bread is free, what more could you ask for?",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 1,
+			"name": "Mozzarella Sticks",
+			"price": "$5.99",
+			"description": "Breaded cheese fried to perfection, 12 sticks included",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 2,
+			"name": "Steak Bites",
+			"price": "$7.99",
+			"description": "Johnny told you he has the best steak around, but if you don't believe him try this first. A 4 oz. filet mignon diced up for y'all to share, this'll prove Johnny right",
+			"image": "https://picsum.photos/100/100"
+		}
+	],
+	"salad": [
+		{
+			"id": 0,
+			"name": "Greek Salad",
+			"price": "$7.25",
+			"description": "Hand-tossed salad with a light greek dressing, a perfect choice for the healthy minded folks",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 1,
+			"name": "Grilled Chicken Salad",
+			"price": "$7.25",
+			"description": "Hand-tossed salad with your choice of salad dressing and grilled chicken on top",
+			"image": "https://picsum.photos/100/100"
+		}
+	],
+	"steak": [
+		{
+			"id": 0,
+			"name": "Filet Mignon 4 oz/8 oz",
+			"price": "$18.99/25.99",
+			"description": "This filet is the most mouth-watering thing you will ever eat, Johnny guarantees it",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 1,
+			"name": "NY Strip 10 oz",
+			"price": "$21.99",
+			"description": "The strip is known for having the perfect balance of fat and flavor. A good sized steak for people who want to keep their pants buttoned",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 2,
+			"name": "Sirloin 6 oz/12 oz",
+			"price": "$16.99/20.99",
+			"description": "Sirloin perfectly marbled to maximize flavor and cooked to perfection",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 3,
+			"name": "T-Bone 16 oz/22 oz",
+			"price": "$20.99/27.99",
+			"description": "This massive bone-in steak is a favorite among beef enthusiasts, a large steak with a lean side and a fatty side, providing lots of flavor in one package",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 4,
+			"name": "Johnny's Special",
+			"price": "$39.99",
+			"description": "An 8 oz filet wrapped in bacon AND a 16 oz T-Bone, you will not be able to button up after this",
+			"image": "https://picsum.photos/100/100"
+		}
+	],
+	"chicken": [
+		{
+			"id": 0,
+			"name": "Grilled Chicken Dinner",
+			"price": "$15.99",
+			"description": "A plump and juicy chicken grilled chicken breast, served with 2 sides",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 1,
+			"name": "Chicken Sandwich Dinner",
+			"price": "$14.99",
+			"description": "Fried or grilled chicken served up on a jumbo bun with a pickle spear and 1 side",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 2,
+			"name": "Chicken Tender Plate",
+			"price": "$12.99",
+			"description": "4 breaded & fried tenders, served with 1 side",
+			"image": "https://picsum.photos/100/100"
+		}
+	],
+	"burger": [
+		{
+			"id": 0,
+			"name": "Standard All-American",
+			"price": "$10.99",
+			"description": "A 1/2 lb patty with cheese, lettuce, tomato, and pickles",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 1,
+			"name": "Spicy Burger",
+			"price": "$13.99",
+			"description": "A 1/2 lb patty with homemade spicy mayonaise, pickles, fried jalapenos, and a carolina reaper made into the patty. Not for the weak-hearted or anybody who wants solid bowel movements later",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 2,
+			"name": "Bubba's Creation",
+			"price": "$24.99",
+			"description": "This thing is a monster yall, Bubba likes his burgers on texas toast he also stacks 3 of them together with bacon and cheese. 3 1/2 lb patties sandwiched between texas toast with bacon and cheese on every layer. Only for those who want a challenge. Served with 2 sides",
+			"image": "https://picsum.photos/100/100"
+		}
+	],
+	"seafood": [
+		{
+			"id": 0,
+			"name": "Fried Catfish",
+			"price": "$10.99",
+			"description": "Local catfish caught and brought to us to batter and fry up just for you",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 1,
+			"name": "Grilled Snapper",
+			"price": "$12.99",
+			"description": "A non-fishy tasting fish that comes grilled or blackened",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 2,
+			"name": "Grilled Shrimp 6 ct/12 ct",
+			"price": "$11.99/16.99",
+			"description": "Grilled or blackened shrimp on skewers just for you, served on a bed of grilled & seasoned vegetables",
+			"image": "https://picsum.photos/100/100"
+		}
+	],
+	"dessert": [
+		{
+			"id": 0,
+			"name": "Momma's Homemade Apple Pie",
+			"price": "$4.99/17.99",
+			"description": "Momma's award winning apple pie sold by the slice or as a whole pie",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 1,
+			"name": "Big Bertha's death by chocolate",
+			"price": "7.99",
+			"description": "Bertha loves chocolate and she's willing to share her favorite creation with you. A chocolate lava cake, with chocolate icing, a dark chocolate ganache between each layer, topped with whipped cream",
+			"image": "https://picsum.photos/100/100"
+		},
+		{
+			"id": 2,
+			"name": "Skillet Cookie",
+			"price": "9.99",
+			"description": "A giant cookie served fresh in an iron skillet topped with vanilla ice cream and drizzled with chocolate syrup, perfect dessert for 2-4 people",
+			"image": "https://picsum.photos/100/100"
+		}
+	]
+}
