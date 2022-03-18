@@ -1,7 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
-
 const Header = ({ title }) => {
 
     return (
@@ -13,7 +12,7 @@ const Header = ({ title }) => {
             </header>
             <Navbar
                 expand='md'
-                className='navbar navbar-dark bg-dark'
+                className='navbar'
                 sticky='top'
             >
                 <Navbar.Toggle

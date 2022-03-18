@@ -36,3 +36,14 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
+h2 {
+	max-width: 70%;
+	text-align: center;
+	margin: 5vw;
+}
+
+.card {
+	text-align: center;
+	padding: 1.5vw;
+}
