@@ -1,1 +1,1 @@
-export const baseUrl = 'https://jsonkeeper.com/b/KUOX/';
+export const baseUrl = 'https://my-json-server.typicode.com/DJSeagrooves/djseagooves.github.io';

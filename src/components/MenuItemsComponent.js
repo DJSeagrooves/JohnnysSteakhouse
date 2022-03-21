@@ -8,7 +8,7 @@ import { baseUrl } from '../shared/baseUrl';
 function MenuItems() {
     const [appitems, setAppItems] = useState([]);
     useEffect(() => { 
-        axios.get(baseUrl + 'appetizer').then((response) => {
+        axios.get(baseUrl + '/appetizer').then((response) => {
             setAppItems(response.data);
         });
     }, [setAppItems]);
@@ -23,7 +23,7 @@ function MenuItems() {
 
     const [saladitems, setSaladItems] = useState([]);
     useEffect(() => { 
-        axios.get(baseUrl + 'salad').then((response) => {
+        axios.get(baseUrl + '/salad').then((response) => {
             setSaladItems(response.data);
         });
     }, [setSaladItems]);
@@ -38,7 +38,7 @@ function MenuItems() {
 
     const [steakitems, setSteakItems] = useState([]);
     useEffect(() => { 
-        axios.get(baseUrl + 'steak').then((response) => {
+        axios.get(baseUrl + '/steak').then((response) => {
             setSteakItems(response.data);
         });
     }, [setSteakItems]);
@@ -53,7 +53,7 @@ function MenuItems() {
 
     const [chickenitems, setChickenItems] = useState([]);
     useEffect(() => { 
-        axios.get(baseUrl + 'chicken').then((response) => {
+        axios.get(baseUrl + '/chicken').then((response) => {
             setChickenItems(response.data);
         });
     }, [setChickenItems]);
@@ -68,7 +68,7 @@ function MenuItems() {
 
     const [burgeritems, setBurgerItems] = useState([]);
     useEffect(() => { 
-        axios.get(baseUrl + 'burger').then((response) => {
+        axios.get(baseUrl + '/burger').then((response) => {
             setBurgerItems(response.data);
         });
     }, [setBurgerItems]);
@@ -83,7 +83,7 @@ function MenuItems() {
 
     const [seafooditems, setseafoodItems] = useState([]);
     useEffect(() => { 
-        axios.get(baseUrl + 'seafood').then((response) => {
+        axios.get(baseUrl + '/seafood').then((response) => {
             setseafoodItems(response.data);
         });
     }, [setseafoodItems]);
@@ -98,7 +98,7 @@ function MenuItems() {
 
     const [dessertitems, setDessertItems] = useState([]);
     useEffect(() => { 
-        axios.get(baseUrl + 'dessert').then((response) => {
+        axios.get(baseUrl + '/dessert').then((response) => {
             setDessertItems(response.data);
         });
     }, [setDessertItems]);
