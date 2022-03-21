@@ -1,1 +1,1 @@
-export const baseUrl = 'https://my-json-server.typicode.com/DJSeagrooves/djseagooves.github.io';
+export const baseUrl = 'http://localhost:3000/';
